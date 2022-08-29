@@ -9,8 +9,8 @@ import java.util.Queue;
 import java.util.Random;
 import java.util.Scanner;
 /**
- * Creates random phrase(s) based on grammar file.
- * @author Benjamin Powell  u1379684 & Sebastien Combes u1362580
+ * Creates random phrase(s) based on grammar file. (grammer files where created by Erin Parker)
+ * @author Benjamin Powell & Sebastien Combes
  * @version April 20, 2022
  */
 public class RandomPhraseGenerator 
