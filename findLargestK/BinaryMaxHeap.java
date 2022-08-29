@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 /**
  * Creates a BinaryMaxHeap
- * @author Benjamin Powell  u1379684 & Sebastien Combes u1362580
+ * @author Benjamin Powell & Sebastien Combes
  * @version April 11, 2022
  */
 public class BinaryMaxHeap<E> implements PriorityQueue<E>
