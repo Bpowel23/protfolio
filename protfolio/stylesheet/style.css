@@ -1,0 +1,293 @@
+/*
+================================ 
+Home 
+================================
+*/
+* {
+    margin: 0;
+}
+body {
+    background-position: center;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    background-color: rgb(8, 70, 8);
+    
+}
+nav, footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav a {
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 5%;
+    font-weight: bolder;
+
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover,
+a:focus {
+    color: white;
+}
+.main { 
+    background-image: url(../img/bikesh-deshar-iN5jOYa724Y-unsplash.jpg);
+    padding-top: 20%;
+    min-height: 600px;
+}
+.content {
+    margin-left: 20%;
+    padding: 5px;
+    text-align: center;
+    max-width: 750px;
+    padding-bottom: 5%;
+    min-height: 600px;
+}
+.me {
+    background-image: url(../img/profilePicture.jpg);
+    background-size: cover;
+    float: left;
+    border-radius: 50%;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+
+}
+h1 {
+    font-size: 60px;
+}
+
+.brief {
+    max-width: 500px;
+    padding-left: 250px;
+}
+.brief p {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+footer {
+    background-color: rgb(8, 70, 8);
+    margin-top: 18%;
+}
+footer a {
+    font-size: 30px;
+    padding: 10px 30px;
+}
+/*
+================================ 
+Skills
+================================
+*/
+.skills {
+    text-align: left;
+    background-image: url(../img/ivana-cajina-Fm3ZlPW2gp0-unsplash.jpg);
+    background-position: top;
+    color: white;
+}
+.landing-pad {
+    padding-top: 15%;
+    background-image: url(../img/intricate-explorer-hlj6xJG30FE-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.skill-bio {
+    margin-bottom: auto;
+    min-height: 300px;
+    max-width: 500px;
+    font-size: x-large;
+}
+.content-skills {
+    margin: 0% 25%;
+    padding: 5% 5% 5% 10%;
+    min-height: 400px;
+}
+.brief-skills {
+    font-size: 25px;
+    max-width: 500px;
+}
+.skill-list {
+    margin-right: 25%;
+    width: 50%;
+}
+.skill-bio p {
+    color: white;
+    background-color:rgba(37, 36, 36, 0.274);
+}
+.skill-btn {
+    padding: 5%;
+    margin: 1%;
+    background-color: rgb(8, 70, 8);;
+    border-radius: 20%;
+    font-size: larger;
+}
+.skill-btn:hover {
+    background-color: black;
+    color: white;
+}
+.skill-list a {
+    padding: 5%;
+    background-color: rgb(8, 70, 8);;
+    border-radius: 20%;
+    font-size: larger;
+    border: 2px solid black;
+}
+.skill-list a:hover {
+    background-color: black;
+    color: white;
+}
+/*
+================================ 
+projects
+================================
+*/
+
+.projects {
+    background-image: url(../img/peter-herrmann-oV6h8DPzGkA-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: grid;
+    grid-template-rows: 15% 40% 35% 10%; 
+    grid-template-columns: 1fr 1fr 2fr 2fr 2fr 1fr 1fr ;
+    grid-template-areas: 
+    'nav nav nav nav nav nav nav'
+    '. . java java java . .'
+    '. . web web web . .'
+    'footer footer footer footer footer footer footer';
+    min-height: 1000px;
+}
+.project-list {
+    color: white;
+}
+nav {
+    grid-area: nav;
+}
+.java-grid {
+    grid-area: java;
+}
+.web-grid {
+    grid-area: web;
+}
+footer {
+    margin: 0;
+    grid-area: footer;
+}
+.project-list .skill-btn {
+   background-image: url(../img/bruno-emmanuelle-RLHw2RIUWsM-unsplash.jpg);
+   background-size: cover;
+   background-position: bottom;
+   padding: 8%;
+   margin: 1%;
+}
+
+/*
+================================ 
+contact
+================================
+*/
+.contact {
+    background-image: url(../img/eberhard-grossgasteiger-OQWUssLSHYU-unsplash.jpg);
+    background-size: cover;
+    padding: 10% 35%;
+    text-align: left;
+    font-size: 30px;
+    min-height: 600px;
+}
+.contact-form {
+    max-width: 400px;
+}
+input[type=text], textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+input[type=submit] {
+    padding: 15px;
+    color: black;
+    background-color: rgb(8, 70, 8);;
+}
+/*
+================================ 
+media 
+================================
+*/
+@media (max-width: 550px) {
+    /* main media */
+
+    nav a, footer a{
+        font-size: 15px;
+    }
+    .me {
+        float: none;   
+        width: 100px;
+        height: 100px;
+    }
+    .content {
+        padding-top: 5%;
+    }
+    .brief {
+        padding: 0;
+    }
+    h1 {
+        text-align: left;
+        font-size: 35px;
+    }
+    .brief p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    /* Skills media */
+
+    .skills p {
+        font-size: 15px;
+    }
+    .skill-bio, .content-skills {
+        padding: 15% 10%;
+        margin: 0;
+    }
+    .skills .skill-btn, .skills .skill-list a {
+        margin: 5%;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    /* Projects media */
+
+    .projects {
+        min-height: 100vh;
+        
+    }
+    .projects h1 {
+        text-align: center;
+    }
+
+    /* Contact media */
+
+    .contact {
+        padding: 10% 10%;
+    }
+
+}
