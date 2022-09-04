@@ -234,7 +234,7 @@ contact and thank you
 .contact {
     background-image: url(../img/eberhard-grossgasteiger-OQWUssLSHYU-unsplash.jpg);
     background-size: cover;
-    padding: 10% 35%;
+    padding: 14% 35%;
     text-align: left;
     font-size: 30px;
     min-height: 600px;
@@ -275,6 +275,7 @@ input[type=submit] {
 }
 .thankyou {
     min-height: 1000px;
+    padding-top: 15%;
     background-image: url(../img/reinaldo-photography-o5PYQ1CR_9w-unsplash.jpg);
     background-size: cover;
     justify-content: center;
@@ -283,7 +284,7 @@ input[type=submit] {
 .thankyou h1 {
     min-width: 400px;
     padding-top: 6%;
-    font-size: 80px;
+    font-size: 85px;
     color: black;
 }
 /*
