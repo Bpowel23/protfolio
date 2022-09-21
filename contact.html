@@ -21,7 +21,8 @@
         <h1>Thank you for visting Benpowel.com contact me by email using the form.
         </h1>
         <div class="contact-form">
-            <form action="https://formsubmit.co/pick.powell@gmail.com" method="POST">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="subject" value="Email from benpowel.com.netlify.app" />
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your Name.." required>
                 <label for="email">Email Address</label>
